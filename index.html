@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./live_coding.css" />
+</head>
+<body>
+    <header id="header">
+        <p id="logo">R</p>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Project</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Elements</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div ><a href="" id="buy_rogan">Buy Rogan &#x2192</a></div>
+    </header>
+
+
+<div class="img">
+    <img src="https://crayonsdigital.com/wp-content/plugins/rogan-core/widgets/images/shape/banner-shape1.svg" alt="" height="500px" width="500px">
+</div>
+
+
+<div class="info">
+   <span style="color: red;"> 70% Off</span> for first 3 months 
+</div>
+
+
+<div class="digital">
+    <h1> Digital Agency 
+        <br>
+        with Excellence
+        <br> Services. 
+</div>
+
+
+<div class="golden">
+    The 3 golden rules of professional graphic designer don't
+</div>
+
+<div class="footer">
+    <h2 id="n">[Student Name]</h2>
+    <h2 id="roll">[University Roll No]</h2>
+    <h2 id="uni">Gla University,Mathura</h2>
+    <h2 id="date"></h2>
+</div>
+<script>
+    var n = document.getElementById("n");
+    var roll = document.getElementById("roll");
+    var date = document.getElementById("date");
+
+    n.innerHTML = "Srashti Gautam";
+    roll.innerHTML = "2115990020";
+
+    var day = new Date();
+    var d = day.getDate();
+    var month = day.getMonth();
+    var year = day.getFullYear();
+
+    date.innerHTML = `${d}-${month}-${year}`;
+
+</script>
+</body>
+</html>
